@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href='/css/carbon.css' rel='stylesheet' type='text/css'></link>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav id= "navbar">
+        <img class='logo' src='imgs/logo.png'>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="greennewdeal.html">Green New Deal</a></li>
+            <li><a class="current" href="carbonfootprint.html">Carbon Connections</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        </nav>
+
+        <section class='section-1'>
+        <div id="container">
+
+            <div class="row">
+                <div class='col-md-10 col-md-offset-1'>
+                    <div class="input-group input-group-lg col-sm-8 col-sm-offset-2">
+                        <form method="POST" action="/representatives">
+                        <input id='search' name="adress" type="text" class="form-control" placeholder="Enter your address to find who represents you"  >
+                        <span class="input-group-btn">
+                            <button class="btn btn-info" onsubmit="submission()" type="submit" id="address-search"><i class='fa fa-search'></i> <span class='hidden-xs hidden-sm'>Search</span></button>
+                            <button class="btn btn-default" type="submit" id="find-me"><i class='fa fa-crosshairs'></i> <span class='hidden-xs hidden-sm'>Find me</span> </button>
+                        </span>
+                        </form>
+                    </div>
+                    <div class='col-sm-8 col-sm-offset-2 filter_level'>
+                        <br /><p class='text-center'>
+                            Show level of government:
+                            <label>
+                                <input type="checkbox" id="show_local_results" value="Local"> Local
+                            </label>
+                            <label>
+                                <input type="checkbox" id="show_county_results" value="County"> County
+                            </label>
+                            <label>
+                                <input type="checkbox" id="show_state_results" value="State"> State
+                            </label>
+                            <label>
+                                <input type="checkbox" id="show_federal_results" value="Federal"> Federal
+                            </label>
+                        </p>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+        </div>
+
+
+        </section>
+
+
+            <footer>
+                <div class="footer-container">
+                    <div class="left-col">
+                        <img src="imgs/logo.png" alt="logo">
+                        <div class="social-media">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                        <p class="rights">© 2020 WeRise All Rights Reserved.</p>
+                    </div>
+        
+                    <div class="right-col">
+                        <h1><span>Our</span> Newsletter</h1>
+                        <div class="border"></div>
+                        <p>Enter your email to stay updated</p>
+                        <form action="" class="news-form">
+                            <input type="text" class="txtb" placeholder="Enter Your Email">
+                            <input type="submit" id="btn" value="submit">
+                        </form>
+        
+                    </div>
+        
+                </div>
+        
+        
+        
+            </footer>
+            
+       
+
+    <script src='server.js'></script>
+</body>
+</html>

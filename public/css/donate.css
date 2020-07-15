@@ -1,0 +1,399 @@
+html,body{
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #f2ffff;
+
+    
+}
+
+.sec1{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+ /* NAVBAR */
+
+ .logo{
+  width: 150px;
+  height: 150px;
+  
+}
+#navbar {
+  font-weight: bolder;
+ background: #8a074f;
+ color: white;
+ overflow: auto;
+ height: auto;
+}
+
+
+#navbar a{
+ margin-top: 50px;
+ color: white;
+ font-family: 'Anton', sans-serif;
+}
+
+#nav ul{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#navbar ul{
+ list-style: none;
+ float: right;
+}
+
+#navbar ul li{
+ float: left;
+}
+
+#navbar ul li a{
+ display: block;
+ padding: 20px;
+ text-align: center;
+ font-size: 25px;
+}
+/* pseudo elements */
+#navbar ul li a:hover,
+#navbar ul li a.current{
+ background: #ffa600;
+ color:  white;
+}
+
+/* NAVBAR END */
+
+
+#home--0{
+    height: 12%;
+    margin: auto;
+    width: 100%;
+    background-color: #2e2f30;
+    
+}
+
+/* ////////////////HERO IMAGE///////////// */
+hero-image {
+    background-image: url("https://mosaictraveler.groveresortorlando.com/wp-content/uploads/2018/10/corporate-team-bonding-activities-1050x675.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orange;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    
+  }
+  
+  .hero-text button:hover {
+    background-color:orange;
+    color: white;
+  }
+
+  /* ///////////////////////////// */
+
+  /* ////////////////HERO IMAGE///////////// */
+
+  body, html{
+    height: 100%;
+    margin: 0;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://nicolekolenda.com/wp-content/uploads/2017/06/paper-team.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    
+  }
+  
+  .hero-text button:hover {
+    background-color:orange;
+    color: white;
+  }
+  .culture, p, h3{
+
+font-family: 'Oswald', sans-serif;
+  text-align:center;
+  padding:30px;
+  }
+  .container{
+   display: grid;
+   justify-content:center;
+    height:1000px; 
+  } 
+  .image{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      height: 1000px;
+  }
+  .image, img{
+    height: 200px;
+    margin:10px;
+  }
+  
+
+
+
+/* FOOTER */
+
+footer{
+  background: whitesmoke;
+  padding: 90px 0;
+}
+
+.footer-container{
+  max-width: 1300px;
+  margin: "auto";
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo{
+  width: 180px;
+}
+
+.social-media{
+  margin: 20px 0;
+}
+
+.social-media a{
+  color: #2e2f30;
+  margin-right: 25px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.social-media a:hover{
+  color: #ffa600;
+}
+
+.right-col h1{
+  font-size: 26px;
+
+}
+
+
+
+.news-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.border{
+  width: 100px;
+  height: 4px;
+  background: #ffa600;
+}
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #c0ccc2;
+  background: whitesmoke;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+#btn{
+ padding: 18px 40px;
+ font-size: 16px;
+ color: white;
+ background: #ffa600;
+ border: none;
+ font-weight: 700;
+ outline: none;
+ border-radius: 30px;
+ margin-left: 20px;
+ cursor: pointer;
+ transition: opacity .3s linear;
+
+}
+
+.btn:hover{
+ opacity: .7;
+}
+
+@media screen and (max-width){
+ .footer-container{
+     max-width: 600px;
+ }
+ .right-col{
+     width: 100%;
+     margin-bottom: 60px;
+ }
+
+ .left-col{
+     width: 100%;
+     text-align: center;
+ }
+}
+
+@media screen and (max-width:700px){
+ .btn{
+     margin: 0;
+     width: 100%;
+ }
+}
+
+/* FOOTER END */
+
+ 
+ 
+
+.donation-container{
+  margin-top: 20px;
+}
+
+#donate-msg{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+#donation-text{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#donate-btns{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 28%;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+}
+
+.btn-h1 {
+padding: 45px; 
+
+font-size: 20px;
+
+
+  border: 2px solid #8a074f;
+
+  color: white;
+  background-color: #8a074f;
+  font-weight: bolder;
+}
+  
+.btn-h1:hover{
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+
+.btn-2{
+  padding: 10px;
+}
+
+/* section 5 */
+
+.section-5{
+  width: 100vw;
+  height: 70vw;
+  background-color: #f8f6e8;
+  display: block;
+  
+
+}
+
+.italics2{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 15px;
+}
+
+.donation-container{
+  min-height: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* buttons */
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+
+.btn{
+
+  font-size: 20px;
+  border: 2px solid #8a074f;
+ padding: 20px 20px 20px 20px;
+  color: white;
+  background-color: #8a074f;
+  font-weight: bolder;
+}
+.btn2{
+  padding: 20px 42px 20px 42px;
+
+  font-size: 20px;
+  border: 2px solid #8a074f;
+
+  color: white;
+  background-color: #8a074f;
+  font-weight: bolder;
+}
+.btn:hover, .btn2:hover{
+  opacity: 0.8;
+}
+#donation-text{
+  font-weight: bolder;
+}

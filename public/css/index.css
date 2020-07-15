@@ -1,0 +1,373 @@
+html,body{
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #f8f6e8;
+    
+}
+
+ /* NAVBAR */
+
+ .logo{
+    width: 150px;
+    height: 150px;
+}
+#navbar {
+   background: #8a074f;
+   color: white;
+   overflow: auto;
+   font-weight: bolder;
+   height: auto;
+}
+
+
+#navbar a{
+   margin-top: 50px;
+   color: white;
+   font-family: 'Anton', sans-serif;
+}
+
+#nav ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#navbar ul{
+   list-style: none;
+   float: right;
+}
+
+#navbar ul li{
+   float: left;
+}
+
+#navbar ul li a{
+   display: block;
+   padding: 20px;
+   text-align: center;
+   font-size: 25px;
+}
+/* pseudo elements */
+#navbar ul li a:hover,
+#navbar ul li a.current{
+   background: #ffa600;
+   color:  white;
+}
+#navbar ul li a:hover{
+    background-color: black;
+}
+
+/* NAVBAR END */
+
+.sec1{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f8f6e8;
+}
+#home--1{
+    background-image: url("https://static01.nyt.com/images/2019/09/20/climate/20cli-protests-slide-4QA7/20cli-protests-slide-4QA7-superJumbo.jpg?quality=90&auto=webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 87%;
+    opacity: 0.7;
+}
+
+
+
+#home--0{
+    height: 12%;
+    margin: auto;
+    width: 100%;
+    background-color: #2e2f30;
+    
+}
+
+#overlay--1 {
+  max-width: 960px;
+    text-align: center;
+    color: #ffa600;
+    font-size: 60px;
+    text-decoration: bolder;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 600px;
+    position: relative;
+    line-height: 1em;
+}
+
+#longer-desc{
+    margin-top: 40px;
+    color: white;
+    font-size: 40px;
+    line-height: 1em;
+}
+
+
+/* section 2 */
+
+.sec2{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f8f6e8;
+}
+
+#logo{
+    position: relative;
+    bottom: 800px;
+    height: 150px;
+}
+
+#side-img{
+    width: 300px;
+    height: 465px;
+    margin-right: 55px;
+    border-radius: 20px;
+}
+
+#container{
+    max-width: 1260px;
+    margin: auto;   
+    margin-top: 90px; 
+    color: black;
+    font-size: 30px;
+    display: flex;
+}
+
+#header--1{
+    font-size: 40px;
+    color: #ffa600;
+    text-decoration: bolder;
+    text-shadow: 1px 2px white;
+}
+
+.about-btn{
+    border: 2px solid white;
+    
+    border-radius: 30px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.donate-btn{
+    background-color: black;
+    border: 2px solid white;
+    
+    border-radius: 30px;
+    font-size: 30px;
+    color: white;
+   
+    text-align: center;
+}
+
+.bold{
+   text-decoration: bolder;
+   color: #ffa600;
+}
+
+
+/* section 3 */
+/* slideshow */
+
+* {box-sizing:border-box}
+
+#sec3{
+    height: 100vh;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#container-3{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 100vw;
+    max-height: 1200px;
+    margin: auto;
+
+}
+
+#img-gnd{
+    background-image: url('https://static01.nyt.com/images/2019/02/20/climate/20CLI-GREENQANDA2/merlin_150320148_72cd2424-ed91-4f7e-bcf5-94b81ba4b650-superJumbo.jpg');
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    z-index:0;
+    opacity: 0.4;
+
+}
+#img-footprint{
+    background-image: url('https://s3.amazonaws.com/ctc-media/wp-content/uploads/20191203000453/shutterstock_1412034770-1-1080x675.png');
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.overlay {
+    position:absolute;
+    top:2100px;
+    left:300px;
+    z-index:1;
+   
+}
+
+.overlay2 {
+    position:absolute;
+    top:2100px;
+    left: 920px;
+    z-index:1;
+   
+}
+
+.big-btn{
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px #522d4d;
+    border: 10px solid #522d4d;
+    background-color: #522d4d;
+    border-radius: 20px;
+   font-weight: bolder;
+   text-align: center;
+}
+.big-btn:hover{
+    background-color: #91094d;
+    border: 20px solid #91094d;
+}
+
+.buttons{
+    
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+    background: whitesmoke;
+    padding: 90px 0;
+}
+
+.footer-container{
+    max-width: 1300px;
+    margin: "auto";
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.logo{
+    width: 180px;
+}
+
+.social-media{
+    margin: 20px 0;
+}
+
+.social-media a{
+    color: #2e2f30;
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.social-media a:hover{
+    color: #ffa600;
+}
+
+.right-col h1{
+    font-size: 26px;
+
+}
+
+
+
+.news-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.border{
+    width: 100px;
+    height: 4px;
+    background: #ffa600;
+}
+.txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #c0ccc2;
+    background: whitesmoke;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+
+#btn{
+   padding: 18px 40px;
+   font-size: 16px;
+   color: white;
+   background: #ffa600;
+   border: none;
+   font-weight: 700;
+   outline: none;
+   border-radius: 30px;
+   margin-left: 20px;
+   cursor: pointer;
+   transition: opacity .3s linear;
+ 
+}
+
+.btn:hover{
+   opacity: .7;
+}
+
+@media screen and (max-width){
+   .footer-container{
+       max-width: 600px;
+   }
+   .right-col{
+       width: 100%;
+       margin-bottom: 60px;
+   }
+
+   .left-col{
+       width: 100%;
+       text-align: center;
+   }
+}
+
+@media screen and (max-width:700px){
+   .btn{
+       margin: 0;
+       width: 100%;
+   }
+}
+
+/* FOOTER END */
+
+   
+   .button-promt{
+       color: #522d4d;
+       font-weight: bolder;
+       text-align: center;
+       text-shadow: 1px 1px white;
+       font-size: 30px;
+   }

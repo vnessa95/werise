@@ -1,0 +1,245 @@
+
+html,body{
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #f2ffff;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ /* NAVBAR */
+
+ .logo{
+    width: 150px;
+    height: 150px;
+}
+#navbar {
+   background: #8a074f;
+   font-weight: bolder;
+   color: white;
+   overflow: auto;
+   height: auto;
+}
+
+
+#navbar a{
+   margin-top: 50px;
+   color: white;
+   font-family: 'Anton', sans-serif;
+}
+
+#nav ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#navbar ul{
+   list-style: none;
+   float: right;
+}
+
+#navbar ul li{
+   float: left;
+}
+
+#navbar ul li a{
+   display: block;
+   padding: 20px;
+   text-align: center;
+   font-size: 25px;
+}
+/* pseudo elements */
+#navbar ul li a:hover,
+#navbar ul li a.current{
+   background: #ffa600;
+   color:  white;
+}
+
+/* NAVBAR END */
+    
+
+
+/* ////////////////////////////////////////////////// */
+/* CONTACT */
+
+#contactForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px 100px;
+   }
+   .formImage{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1555396273-755660f19034?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80') no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    padding: 50px 50px;
+    max-height: 100%;
+    color: white;
+    text-align: center;
+   }
+   .ana{
+    padding: 50px 50px;
+    background: rgb(97, 155, 74);
+    width: 400px;
+    height: 600px;
+    color: white;
+   }
+   #contactForm .contact-items{
+    margin-bottom: 20px;
+   }
+   #contactForm label {
+    display: block;
+    margin-bottom: 5px;
+   }
+   #contactForm input,
+   #contactForm textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px #ddd solid;
+   }
+   #contactForm textarea{
+    height: 200px;
+   }
+   #contactForm input:focus,
+   #contactForm textarea:focus{
+    outline: none;
+    border-color: #053031
+   }
+   .btn{
+   align-items: center;
+    background: #053031;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.7s;
+   }
+   .btn:hover{
+    background: #053031;
+   }
+   
+   
+   /* ////////////////////////////////////////////////// */
+   a{
+       text-decoration: none;
+       color: inherit;
+   }
+   
+   
+   
+/* FOOTER */
+
+footer{
+    background: whitesmoke;
+    padding: 90px 0;
+}
+
+.footer-container{
+    max-width: 1300px;
+    margin: "auto";
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.logo{
+    width: 180px;
+}
+
+.social-media{
+    margin: 20px 0;
+}
+
+.social-media a{
+    color: #2e2f30;
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.social-media a:hover{
+    color: #ffa600;
+}
+
+.right-col h1{
+    font-size: 26px;
+
+}
+
+
+
+.news-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.border{
+    width: 100px;
+    height: 4px;
+    background: #ffa600;
+}
+.txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #c0ccc2;
+    background: whitesmoke;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+
+#btn{
+   padding: 18px 40px;
+   font-size: 16px;
+   color: white;
+   background: #ffa600;
+   border: none;
+   font-weight: 700;
+   outline: none;
+   border-radius: 30px;
+   margin-left: 20px;
+   cursor: pointer;
+   transition: opacity .3s linear;
+ 
+}
+
+.btn:hover{
+   opacity: .7;
+}
+
+@media screen and (max-width){
+   .footer-container{
+       max-width: 600px;
+   }
+   .right-col{
+       width: 100%;
+       margin-bottom: 60px;
+   }
+
+   .left-col{
+       width: 100%;
+       text-align: center;
+   }
+}
+
+@media screen and (max-width:700px){
+   .btn{
+       margin: 0;
+       width: 100%;
+   }
+}
+
+/* FOOTER END */
+
+   
+   
